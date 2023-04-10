@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Politutorias</title>
+
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@100;300;400;600;800&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+   <!-- ========= NAVBAR ======== -->
+   <nav>
+      <div class="container nav__container">
+         <a href="index.html">
+            <h4>TUTORIAS</h4>
+         </a>
+         <ul class="nav__menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#preguntas">Preguntas frecuentes</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="login.html">Iniciar Sesion</a></li>
+         </ul>
+         <button id="open-menu-icon"><i class="uil uil-bars"></i></button>
+         <button id="close-menu-icon"><i class="uil uil-multiply"></i></button>
+      </div>
+   </nav>
+   <!-- ========== HEADER ======== -->
+   <header>
+      <div class="container header__container">
+         <div class="header__izq">
+            <h1>Aumenta tus habilidades para avanzar tu camino en la universidad.</h1>
+            <p>Tutoriales de materias básicas para la carrera de Desarrollo de Software.</p>
+            <a href="registro.html" class="btn btn-primario">Registrarse</a>
+         </div>
+         <div class="header__der">
+            <div class="header__right-image">
+               <img src="media/principal.png" alt="Fondo principal">
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- ========= PORQUE ELEGIRNOS ========= -->
+   <section class="categorias">
+      <div class="container categorias__container">
+         <div class="categorias__izq">
+            <h1>¿Por qué elegirnos?</h1>
+            <p>
+               Somos estudiantes de la Escuela Politécnica Nacional, y el presente proyecto lo hemos desarrollado con el fin de brindar asesoría personal gratuita.
+            </p>
+            <!-- <a href="#" class="btn">Learn More</a> -->
+         </div>
+
+         <div class="categorias__der">
+
+            <article class="categoria">
+               <span class="categoria__icono"><i class="uil uil-check-circle"></i></span>
+               <h5>Confianza</h5>
+               <p>Los profesores son estudiantes de la EPN. Además, los testimonios hablan por nosotros.</p>
+            </article>
+
+            <article class="categoria">
+               <span class="categoria__icono"><i class="uil uil-check-circle"></i></span>
+               <h5>Gratuidad</h5>
+               <p>El proyecto se ha desarrollado sin fines de lucro. </p>
+            </article>
+
+            <article class="categoria">
+               <span class="categoria__icono"><i class="uil uil-check-circle"></i></span>
+               <h5>Crecimiento</h5>
+               <p>Primera versión del sistema que con el tiempo irá incluyendo mejoras.</p>
+            </article>
+
+         </div>
+      </div>
+   </section>
+
+   <!-- ===== CURSOS POPULARES ===== -->
+   <section class="cursos" id="cursos">
+      <h2>Cursos populares</h2>
+      <div class="container cursos__container">
+
+         <article class="curso">
+            <div class="courso__image">
+               <img src="media/curso-interfaces.jpg" alt="Portada curso interfaces">
+            </div>
+            <div class="curso__info">
+               <h4>Diseño de interfaces</h4>
+               <p>Crear interfaces visuales efectivas para aplicaciones web y móviles. Entenderás sobre la teoría del diseño, los patrones de diseño, la usabilidad y la accesibilidad, y cómo aplicarlos en el proceso de diseño.</p>
+            </div>
+         </article>
+
+         <article class="curso">
+            <div class="curso__image">
+               <img src="media/curso-basesdatos.jpg" alt="Portada curso bases de datos">
+            </div>
+            <div class="curso__info">
+               <h4>Bases de datos</h4>
+               <p>Entiende los fundamentos de la administración de bases de datos. Cómo crear y administrar bases de datos, cómo utilizar el lenguaje SQL para realizar consultas, cómo diseñar relaciones de base de datos y cómo asegurar la integridad de los datos.</p>
+            </div>
+         </article>
+
+         <article class="curso">
+            <div class="curso__image">
+               <img src="media/curso-analisisdatos.jpg" alt="Portada curso interfaces">
+            </div>
+            <div class="curso__info">
+               <h4>Análisis de datos</h4>
+               <p>Analiza grandes conjuntos de datos. Aprende a usar Python para manipular y visualizar datos, cómo realizar análisis estadísticos. Entiende cómo presentar y comunicar sus hallazgos de manera efectiva.</p>
+            </div>
+         </article>
+
+      </div>
+   </section>
+
+   <!-- ===========PREGUNTAS FRECUENTES ============== -->
+   <section class="faqs" id="preguntas">
+      <h2>Preguntas frecuentes</h2>
+      <div class="container faqs__container">
+
+         <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+               <h4>¿Tienen algún costo?</h4>
+               <p>No, ninguna tutoría tiene costo alguno. El proyecto está desarrollado sin fines de lucro.</p>
+            </div>
+         </article>
+
+         <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+               <h4>¿Quiénes son los tutores o tutoras que imparten las tutorías?</h4>
+               <p>Los tutores o tutoras son estudiantes de la Escuela Politécnica Nacional que de forma voluntaria han decidido compartir su conocimiento para impartir los cursos. Los mismos han sido seleccionados mediante una prueba de conocimientos antes de entrar como tutor o tutora en la plataforma.</p>
+            </div>
+         </article>
+
+         <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+               <h4>¿Se brinda algún certificado al finalizar las tutorías?</h4>
+               <p>No, dado que solo con clases de refuerzo y no de especialización. Estos siguen lineamientos establecidos por los estudiantes en cuanto a qué materias y temas desean reforzar, y no son los tutores o la plataforma quienes imponen las temáticas a impartirse.</p>
+            </div>
+         </article>
+
+         <article class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+               <h4>¿Puedo ser tutor o tutora?</h4>
+               <p>Por supuesto, cada cierto tiempo se publica la oferta de ser parte de las personas que comparten sus concimientos a quienes recién empiezan sus estudios.</p>
+            </div>
+         </article>
+
+      </div>
+   </section>
+
+   <!-- ========= TESTIMONIOS ======== -->
+
+   <section class="container testimonials__container">
+      <h2>Testimonios de tutoriados</h2>
+      <div class="testimonials__subcontainer">
+
+         <article class="testimonial">
+            <div class="avatar"><img src="media/avatar-mujer.png" alt="Foto Lara Barbera"></i></div>
+            <div class="testimonial__info">
+               <h5>Lara Barbera</h5>
+               <small>Estudiante</small>
+            </div>
+            <div class="testimonial__body">
+               <p>Agradezco al tutor Juan porque es una persona muy ingenioso y de muy buen humor, la teoría la respaldaba con ejercicios prácticos, lo que permitió entender mejor el tema. He logrado llenar vacíos que las clases en la universidad no lograban complementar.</p>
+            </div>
+         </article>
+
+         <article class="testimonial">
+            <div class="avatar"><img src="media/avatar-hombre.png" alt="Foto Juan Rocío"></div>
+            <div class="testimonial__info">
+               <h5>Juan Rocío</h5>
+               <small>Estudiante</small>
+            </div>
+            <div class="testimonial__body">
+               <p>La posibilidad de tener opción a elegir un horario a nuestra conveniencia es muy favorable, dado que realizo otras activiidades curriculares.</p>
+            </div>
+         </article>
+
+      </div>
+   </section>
+
+   <!-- ======= CONTACTANOS =======  -->
+   
+   <section class="contact">
+      <div class="container contact__container">
+         <aside class="contact__aside">
+            <div class="aside__image">
+               <img src="media/contacto.png" alt="Imagen de contacto.">
+            </div>
+            <h2>Contáctanos</h2>
+            <p>Para responder cualquier inquietud, por favor llena el siguiente formulario y contáctanos.</p>
+            <ul class="contact__details">
+               <li><i class="uil uil-phone"></i><h5>+593 0998453454</h5></li>
+               <li><i class="uil uil-envelope"></i><h5>politutorias@gmail.com</h5></li>
+               <li><i class="uil uil-location-pin-alt"></i><h5>Quito, Ecuador</h5></li>
+            </ul>
+            <ul class="contact__socials">
+               <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+               <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+               <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+               <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+            </ul>
+         </aside>
+
+         <form class="contact__form">
+            <div class="form__name">
+               <input type="text" name="First Name" placeholder="Nombre" required>
+               <input type="text" name="Last Name" placeholder="Apellido" required>
+            </div>
+            <input type="email" name="Email Address" placeholder="Correo Electrónico" required>
+            <textarea name="Message" rows="7" placeholder="Mensaje" required></textarea>
+            <button type="submit" class="btn btn-primario">Enviar Mensaje</button>
+         </form>
+      </div>
+   </section>
+
+   <!-- ========== FOOTER ========== -->
+
+   <footer>
+      <div class="container footer__container">
+         
+         <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>TUTORIAS</h4></a>
+            <p>Respondemos todas tus dudas.</p>
+         </div>
+
+         <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="#preguntas">Preguntas frecuentes</a></li>
+               <li><a href="#cursos">Cursos</a></li>
+            </ul>
+         </div>
+         
+         <div class="footer__3">
+            <h4>Políticas de uso</h4>
+            <ul class="privacy">
+               <li><a href="#">Políticas de uso</a></li>
+            </ul>
+         </div>
+
+         <div class="footer__4">
+            <h4>Contáctanos</h4>
+            <div>
+               <p>+593 0998453454</p>
+               <p>politutorias@gmail.com</p>
+            </div>
+            <ul class="footer__socials">
+               <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+               <li><a href="#"><i class="uil uil-instagram"></i></a></li>
+               <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+               <li><a href="#"><i class="uil uil-linkedin"></i></a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer__copyright">
+         <small>Copyright &copy; TUTORIAS</small>
+      </div>
+   </footer>
+
+
+
+
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>

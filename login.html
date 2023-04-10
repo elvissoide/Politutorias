@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politutorias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@100;300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo-login.css">
+</head>
+
+<body>
+    <section class="contact">
+        <div class="container contact__container">
+            <aside class="contact__aside">
+
+                <h2>Ingresar al sistema</h2>
+                <p>En esta plataforma podrás resolver todas tus dudas mediant tutorías especializadas en el tema de
+                    interés.</p>
+            </aside>
+
+            <form class="contact__form">
+                <select id="miSelect">
+                    <option value="Administrador-tutorias/index.html">Administrador</option>
+                    <option value="Tutor-tutorias/index.html">Tutor/a</option>
+                    <option value="Estudiantes-tutorias/index.html">Estudiante</option>
+                </select>
+                <input type="text" name="Usuario" placeholder="Usuario">
+                <input type="password" name="Contrasena" placeholder="Contraseña">
+                <button id="miBtn" class="btn btn-primary" type="button">Ingresar</button>
+            </form>
+        </div>
+    </section>
+    <script src="js/main-login.js"></script>
+</body>
+
+</html>
